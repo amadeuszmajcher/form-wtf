@@ -10,42 +10,42 @@
 </head>
 
 <body>
-    <main>
+    <main class="container">
         <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
             <p>
-                <label for="name">Your name:</label>
-                <input name="name" id="name" placeholder="Enter your name" required>
+                <label for="name">Your name:</label><br/>
+                <input name="name" id="name" type="text" required>
             </p>
             <p>
-                <label for="surname">Your surname:</label>
-                <input name="mySurname" id="surname" placeholder="Enter your surname" required>
+                <label for="surname">Your surname:</label><br/>
+                <input name="mySurname" id="surname" type="text" required>
             </p>
             <p>
-                <label for="password">Your password:</label>
+                <label for="password">Your password:</label><br/>
                 <input name="password" id="password" type="password" >
             </p>
             <p>
-                <label for="age">Age:</label>
-                <input name="age" id="age" type="number" value="26">
+                <label for="age">Age:</label><br/>
+                <input name="age" id="age" type="number">
             </p>
             <p>
-                <label for="telephone">Phone number:</label>
+                <label for="telephone">Phone number:</label><br/>
                 <input name="telephone" id="telephone" type="tel">
             </p>
             <p>
-                <label for="emailAdress">Email adress:</label>
+                <label for="emailAdress">Email adress:</label><br/>
                 <input name="emailAdress" id="emailAdress" type="email">
             </p>
             <p>
-                <label for="avatar">Your avatar:</label>
+                <label for="avatar">Your avatar:</label><br/>
                 <input name="avatar" id="avatar" type="file">
             </p>
             <p>
-                <label for="range">Range:</label>
+                <label for="range">Range:</label><br/>
                 <input name="range" id="range" type="range" min="0" max="100" value="50" step="10">
             </p>
             <p>
-                <label for="select">Please select the answer:</label>
+                <label for="select">Please select the answer:</label><br/>
                 <select name="select" id="select">
                     <option value="user selected yes">yes</option>
                     <option value="user selected no">no</option>
@@ -53,10 +53,8 @@
                 </select>
             </p>
             <p>
-                <label for="textarea">Describe your day:</label>
-                <textarea id="textarea" name="textarea">
-                    Lorem ipsum
-                </textarea>
+                <label for="textarea">Describe your day:</label><br/>
+                <textarea id="textarea" name="textarea" cols="30" rows="5"></textarea>
             </p>
             <fieldset>
                 <legend>Select a maintenance drone</legend>
